@@ -30,7 +30,7 @@
     [:author
      [:name author]
      [:uri base-name]]]    
-   (map make-atom posts))))
+   (map make-atom-entry posts))))
 
 (defn atom-feed [base-name title author posts]
   (str
